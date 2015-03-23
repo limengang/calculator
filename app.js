@@ -8,9 +8,7 @@ var numberbox;
 var i,box1,box2,box3,box4;
 var tipstext='請繼續輸入欲計算的數值';
 $('#btn1').on('click',function(){
-	// alert('hello jquery');
-// $('#message').text('吃午餐');
-// $('#message').addclass('green');
+
 $('#tips').text('');
 currentText=currentText+1
 $('#message').text(currentText);
