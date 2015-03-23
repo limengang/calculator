@@ -109,21 +109,28 @@ if (i=1) {
 	alert(box1)
 	$('#tips').text(box1);
 }
-if (i=2) {
+else{
+	if (i=2) {
 	box2=jianbox-numberbox;
 	alert(box2)
 	$('#tips').text(box2);
-}
-if (i=3) {
+             }
+    else{
+    	if (i=3) {
 	box3=numberbox*chengbox;
 	alert(box3)
 	$('#tips').text(box3);
-}
-if (i=4) {
+                 }
+        else{
+        	if (i=4) {
 	box4=chubox/numberbox;
 	alert(box4)
 	$('#tips').text(box4);
+                     }
+        }
+    }
 }
+
 //$('#message').text(toString(box));
 $('#message').text('請點擊“C”鍵以便進行新的運算')
 });
