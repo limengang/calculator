@@ -104,25 +104,25 @@ $('#btndeng').on('click',function(){
 $('#tips').text('');
 numberbox=parseInt(currentText)
 
-if (i=1) {
+if (i==1) {
 	box1=numberbox+addbox;
 	alert(box1)
 	$('#tips').text(box1);
 }
 else{
-	if (i=2) {
+	if (i==2) {
 	box2=jianbox-numberbox;
 	alert(box2)
 	$('#tips').text(box2);
              }
     else{
-    	if (i=3) {
+    	if (i==3) {
 	box3=numberbox*chengbox;
 	alert(box3)
 	$('#tips').text(box3);
                  }
         else{
-        	if (i=4) {
+        	if (i==4) {
 	box4=chubox/numberbox;
 	alert(box4)
 	$('#tips').text(box4);
